@@ -47,6 +47,16 @@
 *.x86_64
 *.x86
 
+# Unity standalone build output
+/Project/PushBlock_Data/
+/Project/UnityPlayer.*
+/Project/UnityEnvironment_BurstDebugInformation_DoNotShip/
+
+# Generated training artifacts
+/config/ppo/results/
+/config/ppo/PushBlock_temp.yaml
+/personal-code/nightly_runner.log
+
 # Plugins
 /com.unity.ml-agents/VideoRecorder*
 
@@ -87,6 +97,7 @@ build/
 
 # Python virtual environment
 venv/
+.venv
 .mypy_cache/
 
 # Code coverage report
