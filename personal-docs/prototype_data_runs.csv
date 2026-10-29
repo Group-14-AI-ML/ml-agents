@@ -1,0 +1,11 @@
+run_id,environment_name,algorithm,learning_rate,batch_size,buffer_size,max_steps,random_seed,cpu_model,ram_gb,has_gpu,eval_success_rate,elapsed_seconds,steps_to_converge,policy_stability_std
+run_001,PushBlock,PPO,0.0003,128,2048,500000,42,AMD Ryzen AI 9 HX,32,FALSE,0.86,698.4,308000,0.041
+run_002,PushBlock,PPO,0.0003,128,2048,500000,101,AMD Ryzen AI 9 HX,32,FALSE,0.84,712.1,331000,0.046
+run_003,PushBlock,PPO,0.0003,128,2048,500000,2024,Intel Core i7-1355U,16,FALSE,0.85,982.5,324000,0.043
+run_004,PushBlock,PPO,0.0001,64,1024,500000,42,Intel Core i7-1355U,16,FALSE,0.43,1146.1,476000,0.068
+run_005,PushBlock,PPO,0.0001,64,1024,500000,101,13th Gen Intel(R) Core(TM) i7-13620H,16,FALSE,0.41,834.2,485000,0.071
+run_006,PushBlock,PPO,0.0001,128,2048,500000,42,13th Gen Intel(R) Core(TM) i7-13620H,16,FALSE,0.58,795.6,418000,0.053
+run_007,PushBlock,PPO,0.001,64,1024,500000,42,Apple M5 Pro,18,FALSE,0.14,638.6,500000,0.138
+run_008,PushBlock,PPO,0.001,128,2048,500000,101,AMD Ryzen AI 9 HX,32,FALSE,0.27,745.2,500000,0.121
+run_009,PushBlock,PPO,0.001,256,4096,500000,42,Apple M2,8,FALSE,0.64,664.3,372000,0.084
+run_010,PushBlock,PPO,0.0003,256,4096,500000,42,13th Gen Intel(R) Core(TM) i7-13620H,16,FALSE,0.91,768.4,284000,0.035
